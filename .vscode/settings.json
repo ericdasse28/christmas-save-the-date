@@ -1,0 +1,6 @@
+{
+    "[html][javascript][css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "djlint.enableLinting": false
+    }
+}

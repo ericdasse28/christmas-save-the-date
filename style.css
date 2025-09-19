@@ -15,6 +15,11 @@ header {
   text-shadow: 0 0 10px #ff6c6c;
 }
 
+.important-stuff {
+  color: #ffdf6c;
+  text-shadow: 0 0 10px #ff6c6c;
+}
+
 .countdown {
   font-size: 2rem;
   margin: 2rem 0;

@@ -32,3 +32,17 @@ function createSnowFlake() {
   }, 5000);
 }
 setInterval(createSnowFlake, 200);
+
+function copyAddress() {
+  const address = document.getElementById("festaAddress").innerText;
+
+  // Copy address to clipboard
+  navigator.clipboard.writeText(address).then(() => {
+    // Alert that copy was successful!
+    let toast = document.getElementById("toast");
+    toast.className = "toast show";
+    setTimeout(() => {
+      toast.className = toast.className.replace("show", "");
+    }, 2000);
+  });
+}

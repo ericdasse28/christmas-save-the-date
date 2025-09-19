@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mountains of Christmas", cursive, sans-serif;
+  background: linear-gradient(to bottom, #0d1b2a, #1b263b);
+  color: white;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 2rem;
+  font-size: 2.5rem;
+  color: #ffdf6c;
+  text-shadow: 0 0 10px #ff6c6c;
+}
+
+.countdown {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.invite-text {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Snow effect */
+.snowflake {
+  position: fixed;
+  top: -10px;
+  color: white;
+  font-size: 1.5em;
+  user-select: none;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
